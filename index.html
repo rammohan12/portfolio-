@@ -8,64 +8,109 @@
         table{
             border: 2px,solid black;
             border-collapse: collapse;
-            height: 100%;
-            width: 100%;
+            width: 90%;
         }
-        education{
-            height: 90%;
-            width: auto;
+        Eduaction{
+            border: 2px,solid black;
+            height: 70px;
+            width: 100px;
+            border-collapse: collapse
         }
-        td{
+
+        td,th{
             border: 2px,solid black;
             height:100px;
             width: 500px;
             border-collapse: collapse;
             padding: 10px;
-            border-spacing: 10px;
+            border-spacing: 30px;
         }
     </style>
 </head>
 <body>
-    <table>
-        <tr><td><center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7cT1jPH2KeaHT8-J6NoiJTnwd0wRip3w5DA&s" alt="">
-        <h1>mr.bean</h1>
-    <p>
-        Web Developer|HTML& CSS Enthusiast
-    </p></center></td></tr>
-        <tr><td>
+    <table align="center">
+    <tr>
+        <td colspan="3"><center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7cT1jPH2KeaHT8-J6NoiJTnwd0wRip3w5DA&s" alt=""><h1>mr.bean</h1><p>Web Developer|HTML& CSS Enthusiast</p></center></td>
+    </tr>
+    <tr>
+        <td colspan="2">
             <p><b>Email:</b>mrbean@example.com</p>
             <p><b>Phone:</b>+1234567890</p>
             <p><b>Location:</b>New York, USA</p>
-        </td></tr>
-        <tr>
-        <td>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
             <div>
                 <h3>Career Objective</h3>
                 <p>To obtain a challenging position as a Web Developer where i can use my skills in HTML and front-end development to build great user experience</p>
             </div>
         </td>
     </tr>
-        <td>
-            <h3>Eduaction</h3>
-            <table name="eduaction">
+    <tr>
+        <td colspan="2">
+            <h3>Education</h3>
+            <table style="width:auto; height: 100px;;">
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Year</th>
+                    
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>BsC computer Science</td>
+                    <td>XYz University</td>
+                    <td>2022</td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>High School</td>
+                    <td>ABC high school</td>
+                    <td>2018</td>
                 </tr>
             </table>
         </td>
-        <tr><td></td></tr>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML5,CSS3</li>
+                <li>Responsive Design</li>
+                <li>JavaScript(Basics)</li>
+                <li>Git& GitHub</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <h3>Projects</h3>
+            <ul>
+                <li><p><b>Portfolio website:</b>Personal website made using HTMl and CSS.</p></li>
+                <li><p><b>Resume Page:</b>A resume layout using only table tags.</p></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <h3>Languages</h3>
+            <ul>
+                <li>English</li>
+                <li>Telugu</li>
+                <li>Hindi</li>
+            </ul>
+        </td>
+        <td>
+            <h3>Interest</h3>
+            <ul>
+                <li>Web Development</li>
+                <li>UI/UX Design</li>
+                <li>Photography</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2"><center>&#169; 2025 mr.bean</center></td>
+    </tr>
     </table>
 </body>
 </html>
